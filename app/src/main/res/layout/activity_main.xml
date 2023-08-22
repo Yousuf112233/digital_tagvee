@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:layout_margin="15dp"
+    android:padding="10dp"
+    android:background="@drawable/ifad"
+
+
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+
+
+            <TextView
+                android:id="@+id/textView"
+                android:layout_width="match_parent"
+                android:layout_height="150dp"
+                android:layout_marginTop="40dp"
+                android:text="0"
+                android:textColor="#AB47BC"
+                android:background="#FFCA28"
+                android:gravity="center"
+                android:textSize="90dp"
+
+                />
+
+            <Button
+                android:id="@+id/AddOne"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:layout_marginBottom="30dp"
+                android:text="AddOne"
+                android:backgroundTint="#9CCC65"
+
+                />
+
+            <Button
+                android:id="@+id/SubOne"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="SubOne"
+                android:backgroundTint="#26C6DA"
+
+                />
+
+            <Button
+                android:layout_marginTop="30dp"
+                android:id="@+id/ResetButton"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:text="ResetButton"
+                android:backgroundTint="#FFA726"
+
+                />
+
+        </LinearLayout>
+
+    </ScrollView>
+
+</LinearLayout>
